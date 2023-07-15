@@ -85,11 +85,16 @@
             .header-image {
                 max-width: 350px;
                 max-height: 250px;
+                border-radius: 15px;
             }
             .item a:hover {
                 color: #FF900E;
             }
             .item {
                 padding: 15px;
+            }
+            .btn:hover {
+                color: #FF900E;
+                background: #FFFFFF;
             }
         }
