@@ -83,10 +83,13 @@
                 margin: auto;
             }
             .header-image {
-                max-width: 400px;
+                max-width: 350px;
                 max-height: 250px;
             }
             .item a:hover {
                 color: #FF900E;
+            }
+            .item {
+                padding: 15px;
             }
         }
