@@ -1,0 +1,92 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .header-section {
+            height: 100vh;
+            width: 100%;
+            background: #FCF3E5;
+            padding-bottom: 180px;
+        }
+        
+        .logo {
+            margin-top: 25px;
+            color: #010313;
+            font-size: 30px;
+        }
+        
+        .nav-section {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        nav ul {
+            display: flex;
+        }
+        
+        .item {
+            list-style: none;
+            padding: 30px;
+        }
+        
+        .item a {
+            text-decoration: none;
+            color: #010313;
+        }
+        
+        .content-written {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            color: #010313;
+        }
+        
+        .content-head {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+        
+        .btn {
+            margin-top: 25px;
+            outline: none;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 6px;
+            background: #FF900E;
+            color: #FFFFFF;
+        }
+        
+        .header-image {
+            max-width: 850px;
+            height: 450px;
+            margin: 40px auto;
+        }
+        
+        .header-image img {
+            width: 100%;
+            height: 100%;
+        }
+        /* resonsiveness */
+        
+        @media screen and (max-width:576px) {
+            .nav-section {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .content-written {
+                width: 60%;
+                margin: auto;
+            }
+            .header-image {
+                max-width: 400px;
+                max-height: 250px;
+            }
+            .item a:hover {
+                color: #FF900E;
+            }
+        }
