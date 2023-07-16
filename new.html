@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .feature-container {
+            display: flex;
+            justify-content: center;
+            margin: 100px auto;
+            column-gap: 100px;
+            padding: 50px 0px;
+        }
+        
+        .feature-image {
+            height: 180px;
+            width: 180px;
+        }
+        
+        .feature-image img {
+            width: 100%;
+        }
+        
+        .featured-image {
+            width: 30%;
+            display: grid;
+            row-gap: 20px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .feature-contain {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        @media screen and (max-width:576px) {
+            .feature-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .featured-image {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="feature-container">
+            <div class="featured-image">
+                <div class="feature-image">
+                    <img src="images/team1.png" alt="">
+                </div>
+                <div class="feature-image">
+                    <img src="images/team2.png" alt="">
+                </div>
+                <div class="feature-image">
+                    <img src="images/team3.png" alt="">
+                </div>
+                <div class="feature-image">
+                    <img src="images/team4.png" alt="">
+                </div>
+            </div>
+            <div class="feature-contain">
+                <h3 class="content-head" style="font-family: Work Sans;"><span style="color: #727272 ;">Quick list</span> of Our <br><span style="color:#FF900E ;">Features </span>
+                </h3>
+                <p class="content-description " style="font-size: 13px;letter-spacing: 1px;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even</p>
+                <button class="btn">Explore more</button>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
