@@ -115,6 +115,41 @@ nav ul {
 
 /* service-section */
 
+.service-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.service-content-head {
+    margin-bottom: 5px;
+}
+
+.service-content-description {
+    font-size: 0.8rem;
+    text-align: justify;
+    color: #727272;
+}
+
+.service-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.service-content-box {
+    width: 35%;
+}
+
+.service-content {
+    border-radius: 8px;
+    background: #FFF;
+    margin-top: 12px;
+    padding: 12px 20px 12px 20px;
+    box-shadow: 1.5px 2.5px 2px 1px rgba(0, 0, 0, 0.065);
+}
+
 
 /* resonsiveness */
 
