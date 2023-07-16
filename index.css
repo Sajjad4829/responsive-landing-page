@@ -107,8 +107,13 @@ nav ul {
 .feature-contain {
     width: 30%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
+
+
+/* service-section */
 
 
 /* resonsiveness */
